@@ -116,6 +116,7 @@ Basic Input/Output System
   - Kali Linux
 
 ![img_11.png](./images/img_11.png)
+
 ![img_12.png](./images/img_12.png)
 
 # Windows
@@ -151,23 +152,37 @@ Basic Input/Output System
 3. Välj Enheter
 4. Välj Skrivare och Skannrar
 5. Välj Lägg till Skrivare eller skanner 
+
 ![img_1.png](./images/img_1.png)
+
 6. Välj skrivaren du vill lägga till 
+
 ![img_2.png](./images/img_2.png)
+
 7. Klicka på Lägg till enhet 
+
 ![img_3.png](./images/img_3.png)
+
 8. Vänta lite 
+
 ![img_4.png](./images/img_4.png)
+
 9. Klart!
+
 ![img_5.png](./images/img_5.png)
 
 ### Om din skrivare inte dyker upp på listan vid steg 6
 
 Klicka på "Skrivaren jag vill använda finns inte i listan"
+
 ![img_7.png](./images/img_7.png)
+
 Här kan vi lägga till skrivare med IP nummer som vi kan hitta på skrivaren
+
 ![img_8.png](./images/img_8.png)
+
 ![img_9.png](./images/img_9.png)
+
 ![img_10.png](./images/img_10.png)
 
 # Datorhanteraren
