@@ -54,10 +54,36 @@
 ![TCP IP Modell 2](img_14.png)
 
 - [MAC-Adress](https://sv.wikipedia.org/wiki/MAC-adress)
+
+![MAC-adress](img_17.png)
+
 - [IP](https://sv.wikipedia.org/wiki/Internetprotokoll)
+
+![IP packet](img_16.png)
+
 - [ARP](https://sv.wikipedia.org/wiki/Address_Resolution_Protocol)
+
+![ARP table](img_18.png)
+
 - [IPv4](https://sv.wikipedia.org/wiki/IPv4)
+
+![img_24.png](img_24.png)
+
+![img_22.png](img_22.png)
+
+- [IPv6](https://sv.wikipedia.org/wiki/IPv6)
+
+![img_25.png](img_25.png)
+
+![img_21.png](img_21.png)
+
+
+![img_20.png](img_20.png)
+
+
 - [TCP](https://sv.wikipedia.org/wiki/Transmission_Control_Protocol)
+
+![TCP header](img_19.png)
 
 
 # Begreppen switchning och routning.
@@ -75,9 +101,15 @@
 # Router
 
 ![img_15.png](img_15.png)
+![img_23.png](img_23.png)
 
 [Router Hur funkar det? - Kjell](https://www.kjell.com/se/kunskap/hur-funkar-det/internet/lokala-natverk/routern)
 
+- Hette tidigare Gateway och används numera synonymt
+- Roterfunktionaliteten hanteras i nätverkslagret, lager 3 i OSI-modellen
+- Leder trafiken 
+- Kopplar samman datornätverk och förmedlar trafik mellan dem
+- Om man aktiverar "Delad internetanslutning" på telefonen använder man den som router
 - 
 
 # Routingprocessen
@@ -92,7 +124,8 @@
 
 - [Default Gateway](https://www.fixanatet.se/grundkunskap/default-gateway-att-hitta-till-andra-ip-nat/)
 - [Routingtabell]()
-- [TTL-värde (Time-to-Live)]
+- [TTL-värde(Time-to-Live)](https://sv.wikipedia.org/wiki/Time_to_Live)
+  - Anger hur många hopp ett paket gör innan 
 
 I kommandotolken
 `tracert gp.se`
