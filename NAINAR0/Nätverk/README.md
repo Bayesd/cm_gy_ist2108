@@ -123,7 +123,11 @@
 ![Rpoutingprocessen](img_1.png)
 
 - [Default Gateway](https://www.fixanatet.se/grundkunskap/default-gateway-att-hitta-till-andra-ip-nat/)
-- [Routingtabell]()
+- [Routingtabell/Dirigeringstabell](https://sv.wikipedia.org/wiki/Dirigeringstabell)
+  - Innehåller kända nätverks adresser
+
+![img_26.png](img_26.png)
+
 - [TTL-värde(Time-to-Live)](https://sv.wikipedia.org/wiki/Time_to_Live)
   - Anger hur många hopp ett paket gör innan 
 
