@@ -9,14 +9,18 @@
 
 # Videolänkar till IT-läraren
 - [Begrepp och standarder](https://itlararen.se/videos/network/network38.html)
-- [Protokoll och standdarder del 1](https://itlararen.se/videos/network/network2.html)
+  - [Kahoot](https://play.kahoot.it/v2/?quizId=4280234a-0629-451a-9890-0e6fabd0217e)
+- [Protokoll och standarder del 1](https://itlararen.se/videos/network/network2.html)
 - [Begrepp del 2](https://itlararen.se/videos/network/network39.html)
 - [TCP IP Introduktion](https://itlararen.se/videos/network/network40.html)
-- [Ehternet](https://itlararen.se/videos/network/network42.html)
+- [Ethernet](https://itlararen.se/videos/network/network42.html)
+  - [Kahoot](https://play.kahoot.it/v2/?quizId=5fdb418b-11f7-4e1a-bbe9-e60598e0cd91)
 - [IPv4 Del 1](https://itlararen.se/videos/network/network43.html)
+  - [Kahoot](https://play.kahoot.it/v2/?quizId=8aa2074a-e218-4b71-bb23-a85d1d959506)
 - [IPv4 Del 2](https://itlararen.se/videos/network/network44.html)
 - [IPv4 Del 3](https://itlararen.se/videos/network/network45.html)
 - [ARP](https://itlararen.se/videos/network/network46.html)
+  - [Kahoot](https://play.kahoot.it/v2/?quizId=9c73e941-ec4e-4ce7-8d0e-6c5f9e2a7e88)
 - [UDP](https://itlararen.se/videos/network/network48.html)
 - [TCP Del 1](https://itlararen.se/videos/network/network49.html)
 - [TCP Del 2](https://itlararen.se/videos/network/network50.html)
@@ -38,6 +42,8 @@
 ![OSI-modellen](img_11.png)
 
 ![OSI IP Stack](img_12.png)
+
+[Skillnad mellan OSI-modell och TCP/IP](https://microcontrollerslab.com/difference-between-tcp-ip-and-osi-model/)
 
 ![img.png](img.png)
 
@@ -110,7 +116,6 @@
 - Leder trafiken 
 - Kopplar samman datornätverk och förmedlar trafik mellan dem
 - Om man aktiverar "Delad internetanslutning" på telefonen använder man den som router
-- 
 
 # Routingprocessen
 
@@ -131,6 +136,8 @@
 - [TTL-värde(Time-to-Live)](https://sv.wikipedia.org/wiki/Time_to_Live)
   - Anger hur många hopp ett paket gör innan 
 
+## tracert
+
 I kommandotolken
 `tracert gp.se`
 <details>
@@ -142,7 +149,7 @@ I kommandotolken
 # Begreppet virtuella nät.
 ## VLAN
 
-###IT-Läraren Video - [VLAN och Switchar](https://itlararen.se/videos/network/network22.html)
+### IT-Läraren Video - [VLAN och Switchar](https://itlararen.se/videos/network/network22.html)
 
 
 
