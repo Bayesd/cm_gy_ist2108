@@ -1,0 +1,1 @@
+[IT-läraren- Felsökning av nätverk](https://itlararen.se/videos/network/network13.html)
