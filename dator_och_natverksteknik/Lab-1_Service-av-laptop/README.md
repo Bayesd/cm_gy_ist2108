@@ -6,7 +6,6 @@
     - [Bakgrund](#bakgrund)
     - [Instruktioner](#instruktioner)
     - [Material](#material)
-    - [Mål](#ml)
     - [Syfte](#syfte)
     - [Vad ska ni leverera?](#vad-ska-ni-leverera)
 - [Betygskrav](#betygskrav)
@@ -63,12 +62,7 @@ Allt ska dokumenteras med beskrivning, foto och hänvisning (sidnummer) till ser
 
 ## Material
 Ni behöver en laptop, lämpliga verktyg, ESD-skydd samt tillgång till servicemanual för aktuell
-laptopmodell (att söka och skaffa servicemanualen ingår i uppgiften och den ska ej tillhandahållas). 
-
-## Mål
-
-I detta projekt ska ni göra en enkel hemsida där man kan lägga album man vill köpa i en kundkorg. Man ska kunna
-uppdatera antalet album samt att när en viss summa nås får man fri frakt.
+laptopmodell (att söka och skaffa servicemanualen ingår i uppgiften och den ska ej tillhandahållas).
 
 ## Syfte
 
