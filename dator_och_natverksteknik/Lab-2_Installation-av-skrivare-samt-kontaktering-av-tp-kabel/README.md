@@ -3,13 +3,6 @@
 ## Innehåll
 - [Föreberande videos](#frberedande-videos)
 - [Uppgift del 1](#uppgift-del-1)
-    - [Bakgrund](#bakgrund)
-    - [Instruktioner](#instruktioner)
-    - [Material](#material)
-    - [Mål](#ml)
-    - [Syfte](#syfte)
-    - [Vad ska ni leverera?](#vad-ska-ni-leverera)
-
 
 
 # Föreberande videos
