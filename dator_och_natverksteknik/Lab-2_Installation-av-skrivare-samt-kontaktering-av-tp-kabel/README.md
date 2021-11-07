@@ -120,7 +120,9 @@ För att kunna ansluta din klient till domänen behöver du sätta en statisk IP
 9. Checka i där det står domain och skriv in din domän
 10. Om du inte kan ansluta till domänen får du gå in i Control Panel > Network and internet > Network and sharing center > Change Adapter settings
     1. Alt. tryck på windows knappen och sök på Network Connections
-    2. Högerklicka på ditt nätverkskort och ändra IPv4 så att din Preferred DNS är samma som domänkontrollantens IP-adress
+    2. Högerklicka på ditt nätverkskort och 
+    3. ändra IPv4 så att du ligger på samma subnät, t.ex. 192.168.0.11 
+    4. ändra så att din Preferred DNS är samma som domänkontrollantens IP-adress
 11. Klicka på OK och starta om datorn
 12. När login skärmen kommer upp ska du välja other user och se till att du ansluter till din domän
 13. skriv in användarnamnet som du skapade i Active Directory Users and COmputers
@@ -129,33 +131,37 @@ För att kunna ansluta din klient till domänen behöver du sätta en statisk IP
 [FIX: To sign in remotely, you need the right to sign in through Remote Desktop Services – Server 2016 (Solved)](https://www.wintips.org/fix-to-sign-in-remotely-you-need-the-right-to-sign-in-through-remote-desktop-services-server-2016/)
 
 
-## 
-14. Starta CLIENT och logga in som användaren du skapade i din domänkontrollant.
-15. Anslut till SERVER1 genom att skriva in UNC-sökvägen \\SERVER1 i utforskaren eller i kördialogfönstret.
-16. Den utdelade skrivaren Test Printer borde listas. Högerklicka på den och välj Connect
+## Testa att skriva ut en sida från din Client
+1. Starta CLIENT och logga in som användaren du skapade i din domänkontrollant.
+2. Anslut till SERVER1 genom att skriva in UNC-sökvägen \\SERVER1 i utforskaren eller i kördialogfönstret.
+3. Den utdelade skrivaren Test Printer borde listas. Högerklicka på den och välj Connect
 (anslut).
-17. Prova att skriva ut genom att starta notepad eller Wordpad och skriva något för att sedan
+4. Prova att skriva ut genom att starta notepad eller Wordpad och skriva något för att sedan
 skriva ut (CTRL+P är tangentbordsgenvägen för att skriva ut). Välj aktuell skrivare.
-18. Byt tillbaka till SERVER1
-19. I Print Management konsolen, klicka på Print servers - SERVER1 – Printers och högerklicka
+5. Byt tillbaka till SERVER1
+6. I Print Management konsolen, klicka på Print servers - SERVER1 – Printers och högerklicka
 på Test Printer, välj Open Printer queue…
-20. Kontrollera att utskriftsjobbet från user1 ligger i kön och att det blivit ett fel (error).
-21. Stäng ner skrivarkön.
-22. Byt tillbaka till CLIENT
+7. Kontrollera att utskriftsjobbet från user1 ligger i kön och att det blivit ett fel (error).
+8. Stäng ner skrivarkön.
+9. Byt tillbaka till CLIENT
 
 ## Ta bort Skrivare från SERVER1
-23. Ta bort skrivaren Test Printer. Control Panel – Hardware and Sound – Devices and Printer
+1. . Ta bort skrivaren Test Printer. Control Panel – Hardware and Sound – Devices and Printer
 högerklicka på skrivaren och välj Remove Device (ta bort enhet).
-24. Byt tillbaka till SERVER1
-25. Ta bort skrivaren Test Printer från SERVER1 via Print Management konsolen. Högerklicka och
+2. Byt tillbaka till SERVER1
+3. Ta bort skrivaren Test Printer från SERVER1 via Print Management konsolen. Högerklicka och
 välj Delete.
-26. Ta bort drivrutinen Canon Inkjet BJ 535PD genom att högerklicka på den och välj Remove Driver
+4. Ta bort drivrutinen Canon Inkjet BJ 535PD genom att högerklicka på den och välj Remove Driver
 Package och välj Remove.
-27. Ta bort skrivarporten 192.168.0.33. Högerklicka och välj Delete. Får ni ett meddelandde om
+5. Ta bort skrivarporten 192.168.0.33. Högerklicka och välj Delete. Får ni ett meddelandde om
 att porten används så är det bara att uppdatera konsolen med F5 och försöka igen.
-28. Avinstallera rollen Print and Document Services via Server Manager och Manage – Remove
-Roles and Features. 
+6. Avinstallera rollen Print and Document Services via Server Manager och Manage – Remove
+Roles and Features.
 
+Om du inte kan utföra steg 4 och 5 för att processer är igång så behöver du rensa spoolern i servern
+Samtidigt som du startar spoolern kan du ta bort drivrutinen och/eller porten
+[Instruuktioner för att stoppa och starta spooler](https://www.dell.com/support/kbdoc/sv-se/000125904/clearing-the-print-spooler-in-windows
+)
 
 
 http://itlararen.se/labbar/Laboration-Windows_Server_2012R2_01-Installation.pdf
