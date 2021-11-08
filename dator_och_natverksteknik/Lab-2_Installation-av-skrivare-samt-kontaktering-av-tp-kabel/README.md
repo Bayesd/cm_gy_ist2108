@@ -121,7 +121,7 @@ För att kunna ansluta din klient till domänen behöver du sätta en statisk IP
 10. Om du inte kan ansluta till domänen får du gå in i Control Panel > Network and internet > Network and sharing center > Change Adapter settings
     1. Alt. tryck på windows knappen och sök på Network Connections
     2. Högerklicka på ditt nätverkskort och 
-    3. ändra IPv4 så att du ligger på samma subnät, t.ex. 192.168.0.11 
+    3. ändra IPv4 så att du ligger på samma subnät
     4. ändra så att din Preferred DNS är samma som domänkontrollantens IP-adress
 11. Klicka på OK och starta om datorn
 12. När login skärmen kommer upp ska du välja other user och se till att du ansluter till din domän
