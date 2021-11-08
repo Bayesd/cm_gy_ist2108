@@ -128,7 +128,6 @@ För att kunna ansluta din klient till domänen behöver du sätta en statisk IP
 13. skriv in användarnamnet som du skapade i Active Directory Users and COmputers
 14. Om du får ett felmeddelande att du inte har rättighet att logga in som remote desktop user kan du läsa på länken nedan
 
-[FIX: To sign in remotely, you need the right to sign in through Remote Desktop Services – Server 2016 (Solved)](https://www.wintips.org/fix-to-sign-in-remotely-you-need-the-right-to-sign-in-through-remote-desktop-services-server-2016/)
 
 
 ## Testa att skriva ut en sida från din Client
@@ -160,11 +159,9 @@ Roles and Features.
 
 Om du inte kan utföra steg 4 och 5 för att processer är igång så behöver du rensa spoolern i servern
 Samtidigt som du startar spoolern kan du ta bort drivrutinen och/eller porten
-[Instruuktioner för att stoppa och starta spooler](https://www.dell.com/support/kbdoc/sv-se/000125904/clearing-the-print-spooler-in-windows
-)
+
 
 
 http://itlararen.se/labbar/Laboration-Windows_Server_2012R2_01-Installation.pdf
 
-[Instruktion - Aktivera usb passthrough till Hyper-v](https://adamtheautomator.com/hyper-v-usb-passthrough/)
 
