@@ -143,7 +143,7 @@ Finns i Windows 10 också:
 ![](img/img_21.png)
 ![](img/img_22.png)
 
-#### Även när Powershell nu är stängt så ligger ikonen lättillgänglig i aktivitetsfältet
+Även när Powershell nu är stängt så ligger ikonen lättillgänglig i aktivitetsfältet
 
 ![](img/img_23.png)
 
