@@ -169,22 +169,6 @@ Efter installationen ska du utföra de inledande stegen för att konfigurera ser
 
 För anteckningar över frågor som dyker upp
 
-### 1.2 Lär känna Windows Server
-
-Bekanta dig med nu med Windows Server.
-
-Lär dig använda startmenyn
-
-Prova att starta olika program och göra olika inställningar.
-
-Bekanta dig med Aktivitetshanteraren
-
-Prova på olika snabbkommandon
-
-För anteckningar över det du har gjort
-
-
-
 # Lagen om upphovsrätt
 
 ## Lag (1960:729) om upphovsrätt till litterära och konstnärliga verk
@@ -357,9 +341,9 @@ Installera Windows Server 2019 Datacenter Desktop Experience på datorn.
 
 Aktivera Rollen Hyper-V via Server Manager
 
-Skriv ett script med powershell som skapar en VM med Windows Server, aktiverar rollen Active DIrectory Domain Services och gör servern till domänkontrollant.
+Skriv ett script med powershell som skapar en VM med Windows Server, aktiverar rollen Active Directory Domain Services och gör servern till domänkontrollant.
 
-Skriv sedan ett powershell scriipt för att lägga till organisational units och användare så som IST2108 discord kanalen är organiserad.
+Skriv sedan ett powershell script för att lägga till organisational units och användare så som IST2108 discord kanalen är organiserad. Detta scriptet måste köras i Domänkontrollanten och inte i Host OSet.
 
 Skapa en extern virtuell switch som du delar hostens NIC med.
 
