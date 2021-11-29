@@ -39,7 +39,8 @@ author: Leo Möller - Codic Education
 - [Webbserver](#webbserver)
   - [Sätt upp rollen web server](#sätt-upp-rollen-web-server)
 - [Prestanda, Optimering och Felsökning](#prestanda-optimering-och-felsökning)
-- [Övervakning och granskning](#övervakning-och-granskning)
+- [Instuderingsfrågor](#instuderingsfrågor)
+  - [6. Serverdatorn](#6-serverdatorn)
 ---
 # Dagens Agenda
 * Serverdatorn
@@ -201,8 +202,13 @@ author: Leo Möller - Codic Education
 * Dessa Finns även i Windows Admin Center
 * Prestandaövervakning i Server Manager
 
+# Instuderingsfrågor
 
+## 6. Serverdatorn
+27. Vad brukar skilja en Serverdator från en "vanlig" Persondator? Nämn minst 4 skillnader.
 
----
+28. Vilken typ av hårddiskar brukar användas i en Server? Vilka var vanligast för några år sedan? Vilka är vanligast idag (Google har svar)?
 
-# Övervakning och granskning
+29. Vilken typ av minnen brukar användas i en Server? Vad skiljer dessa från de "vanliga?"
+
+30. Vad heter programvaran i en server från HP med vilken man kan konfigurera själva serverna hårdvara, även på distans?
